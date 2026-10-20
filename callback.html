@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Tesla sign-in complete</title>
+<style>body{font-family:system-ui;padding:2em;max-width:40em}code{word-break:break-all;background:#eee;padding:.3em;display:block}</style></head>
+<body><h2>Tesla sign-in complete</h2><p>Copy this whole code and send it back to the bot (it expires in a few minutes):</p>
+<code id="c">(no code found)</code>
+<script>const p=new URLSearchParams(location.search);if(p.get('code'))document.getElementById('c').textContent=p.get('code');
+if(p.get('error'))document.getElementById('c').textContent='Error: '+p.get('error')+' '+(p.get('error_description')||'');</script>
+</body></html>
